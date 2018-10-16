@@ -9,4 +9,3 @@ class Hash
   end
 end
 key_list
-end
