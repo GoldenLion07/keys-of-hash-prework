@@ -4,6 +4,7 @@ class Hash
     argument.each do |arg|
       map do |k,v|
         if arg == v 
-          key_list << 
+          key_list << k 
+          w
   end
 end
