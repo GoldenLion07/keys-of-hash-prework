@@ -1,8 +1,9 @@
 class Hash
   def keys_of(*arguments)
-    Key_list = []
+    key_list = []
     argument.each do |arg|
       map do |k,v|
-        if arg == 
+        if arg == v 
+          key_list << 
   end
 end
