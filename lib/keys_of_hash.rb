@@ -5,6 +5,6 @@ class Hash
       map do |k,v|
         if arg == v 
           key_list << k 
-          w
+        end
   end
 end
