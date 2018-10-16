@@ -1,13 +1,14 @@
 class Hash
   def keys_of(*arguments)
-    key_list = []
-    argument.each do |arg|
-      map do |k,v|
-        if arg == v 
-          key_list << k 
-        end
+    listOfKeys=[]
+
+argument.each do |arg|
+    map do |key,value|
+     if arg == value
+   listOfKeys<< key
+      end
+     end
+    end
+listOfKeys
   end
-end
-key_list
-end
 end
